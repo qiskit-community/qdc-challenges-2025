@@ -1,0 +1,10 @@
+plotly==6.4.0
+jupyter==1.1.1
+qiskit[visualization]==2.2.3
+qiskit-aer==0.17.2
+qiskit-addon-pna
+qiskit-addon-slc~=0.1.0
+qiskit-addon-utils~=0.3.0
+samplomatic==0.13.0
+qiskit-ibm-runtime @ git+https://github.com/Qiskit/qiskit-ibm-runtime.git@executor_preview
+qiskit-device-benchmarking @ git+https://github.com/qiskit-community/qiskit-device-benchmarking.git
