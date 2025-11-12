@@ -52,3 +52,20 @@ jupyter notebook
 Please navigate to `save_account.ipynb` and run the notebook to save your token. This must be done correctly in order for your challenge submissions to be graded.
 
 You're ready to get started! Good luck :)
+
+___
+
+## DAY 3: Environment for Tutorials
+
+A separate environment is required to run the tutorials located in the `day3_tutorials` folder of this repository. These will be presented on Day 3 of the conference. 
+
+To create a virtual environment for the tutorials, in your terminal navigate to the folder where you cloned the QDC 2025 Challenge repository. Then, repeat Steps 2-4 outlined above, replacing `qdc2025-venv` -> `qdc-tutorials-2025-venv`, `requirements.txt` -> `requirements-tutorials.txt`, and `"QDC 2025"` -> `"QDC Tutorials 2025"` (see the code block below provided for your convenience). In Jupyter, be sure to change the kernel to **`QDC Tutorials 2025`** from the dropdown menu to use the correct virtual environment.
+```
+cd </path/to/your/folder>
+python3 -m venv qdc-tutorials-2025-venv
+source qdc-tutorials-2025-venv/bin/activate
+cd qdc-challenges-2025
+pip install -r requirements-tutorials.txt
+python -m ipykernel install --user --name=qdc-tutorials-2025-venv --display-name "QDC Tutorials 2025"
+jupyter notebook
+```
