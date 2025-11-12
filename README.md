@@ -43,6 +43,10 @@ To set up your IBM Quantum _access credentials_ for the event, use the following
 5. After obtaining your credentials, visit the [following URL](https://ibm.biz/qdc-2025) and login.
 
 
+## Challenge Rules
+
+For more information on the contest rules for completing the challenges, read through the [`contest_rules.md`](./contest_rules.md) file of this repository.
+
 ## Challenge Notebooks
 
 Throughout QDC, attendees will have the opportunity to participate in hands-on coding challenges inspired by recent, impactful results from the quantum computing community.
