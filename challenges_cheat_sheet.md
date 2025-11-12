@@ -308,15 +308,17 @@ This new Qiskit addon uses Pauli propagation to characterize Pauli noise affecti
 
 *Relevant docs links:*
 
-TBD
+- [PNA documentation page](https://qiskit.github.io/qiskit-addon-pna/)
+- [qiskit-addon-pna Github repo](https://github.com/Qiskit/qiskit-addon-pna)
 
 ## Shaded Light Cones
 
-Shaded lightcones uses pauli propagation to reduce the number of error terms accounted for in a noise model according to the specifics of the target observable. This new Qiskit addon is most useful for reducing the sampling overhead for running PEC-based workloads.
+Shaded lightcones (SLC) uses pauli propagation to reduce the number of error terms accounted for in a noise model according to the specifics of the target observable. This new Qiskit addon is most useful for reducing the sampling overhead for running PEC-based workloads.
 
 *Relevant docs links:*
 
-TBD
+- [SLC documentation page](https://qiskit.github.io/qiskit-addon-slc/)
+- [qiskit-addon-slc Github repo](https://github.ibm.com/ibm-q-research/qiskit-addon-slc)
 
 
 
